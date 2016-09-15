@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping List</title>
+	<script type="text/javascript"
+		src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script type="text/javascript" src="model.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+	<link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="container" ng-app="myShoppingList" ng-controller="myCtrl">
+		<p>My Shopping List</p>
+		
+		<ul>
+			<li ng-repeat="x in products"> {{x}} </li>
+		</ul>
+
+		
+
+
+	</div>
+	
+	
+</body>
+</html>
