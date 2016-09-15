@@ -14,9 +14,18 @@
 		<p>My Shopping List</p>
 		
 		<ul>
-			<li ng-repeat="x in products"> {{x}} </li>
+			<li ng-repeat="i in products"> 
+				<div class="listItem">
+					{{i}}
+				</div>
+				<div class="listItem">
+					x
+				</div>
+			</li>
 		</ul>
 
+		<input type="text" placeholder="Add shopping items here">
+		<input type="submit" value="Add">
 		
 
 
