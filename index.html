@@ -23,10 +23,10 @@
 			</li>
 		</ul>
 
-		<input ng-model="addMe">
-		<button ng-click="addItem()">Add</button>
+		<input ng-model="addMe" placeholder="Add shopping items here" required="true">
+		<input type="submit" ng-click="addItem()" value="Add">
 		
-
+		<p>{{errortext}}</p>
 
 	</div>
 	
